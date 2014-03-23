@@ -31,6 +31,5 @@ group :production do
 	gem 'rails_12factor','0.0.2'
 end
 
-ENV['NOKOGIRI_USE_SYSTEM_LIBRARIES'] = 'YES'
 gem 'nokogiri', '1.6.1'
 
